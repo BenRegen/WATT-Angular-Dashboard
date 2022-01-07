@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: #cccccc;
+  }
+
+  .sidebar {
+      justify-content: left ;
+  }
+a{
+  font-size: 30px;
+}
+h1{
+  font-size: 50px;
+}
