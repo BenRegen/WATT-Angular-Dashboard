@@ -1,0 +1,10 @@
+<div class="header-card">
+  <div class="card-flex">
+    <img class="icon" [src]="info.imageUrl" [alt]="info.title">
+    <div style="margin-left:1em;">
+      <p>{{info.title}}</p>
+      <h1 style="line-height:1px;">{{info.statistic}}</h1>
+      <p style="line-height:40px;">{{info.percentChanged / 100 | percent }}</p>
+    </div>
+  </div>
+</div>
