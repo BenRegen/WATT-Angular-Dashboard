@@ -10,7 +10,7 @@ import { CardComponent } from './card-holder/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
-    SideNavComponent
+    SideNavComponent,
     CardComponent,
     CardContainerComponent
   ],
