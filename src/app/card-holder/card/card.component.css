@@ -1,5 +1,18 @@
 img {
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
   border-radius: 8px;
+}
+
+.card-flex {
+  display: inline-flex;
+  align-items:center;
+  vertical-align:center;
+}
+
+.header-card {
+  padding:2em;
+  margin-top:3em;
+  border-radius: 15px;
+  box-shadow: 3px 4px 15px #eee;
 }
