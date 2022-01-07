@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let cardInfo of allCardInfo; let i = index" [class]="'col-' + cardColumnWidth">
+      <app-card [info]="cardInfo"></app-card>
+    </div>
+  </div>
+</div>
