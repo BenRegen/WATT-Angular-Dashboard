@@ -75,6 +75,40 @@ export class UserService {
 }
 //getLocations - returns an array of locations???//
     getLocations () {
-        //factor in later//
+        let loc = [];
+        this.users.forEach((u) => {
+            loc.push({"city":u.location.city, "country":u.location.country});
+        });
+        return loc;
+    }
+    //Returns and sorts the occurrences of locations. Does not work yet, do not use
+    getLocationsFrequencies() {
+        //List of dummy locations for testing
+        let loc = [
+            {"city": "London", "country":"GB"},
+            {"city": "NY", "country":"USA"},
+            {"city": "London", "country":"GB"},
+            {"city": "LA", "country":"USA"},
+            {"city": "London", "country":"GB"},
+            {"city": "LA", "country":"USA"},
+            {"city": "Tokyo", "country":"Japan"},
+            {"city": "London", "country":"GB"},
+            {"city": "Tokyo", "country":"Japan"},
+            {"city": "NY", "country":"USA"}
+        ];
+        let frequencies = [];
+        let frequency: number;
+        // this.users.forEach((u) => {
+        //     loc.push({"city":u.location.city, "country":u.location.country});
+        // });
+        for (const n in loc) {
+            let p = loc[n];
+            console.log("p: ", p);
+            frequency = loc.reduce((a, v) => (JSON.stringify(v) === JSON.stringify(p) ? a + 1 : a), 0);
+            frequencies.push({"location":p, "frequency":frequency});
+        }
+        frequencies.sort((a, b) => b.frequency - a.frequency);
+        console.log(frequencies);
+        return frequencies;
     }
 }
