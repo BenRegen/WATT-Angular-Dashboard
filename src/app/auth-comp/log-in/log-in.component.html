@@ -1,0 +1,20 @@
+<form (ngSubmit)="onFormSubmit(templateFormRef)" #templateFormRef="ngForm">
+  <div id="logIn">
+    <!-- Username -->
+    <div class="form-group">
+      <label for="username">Username :</label>
+      <input type="text" id="username" name="username" class="form-control" ngModel />
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+      <label for="password">Password :</label>
+      <input
+        type="text"
+        id="password"
+        name="password"
+        class="form-control"
+        ngModel
+      />
+      <button type="submit" [disabled]="!templateFormRef.valid">Submit</button>
+    </div>
