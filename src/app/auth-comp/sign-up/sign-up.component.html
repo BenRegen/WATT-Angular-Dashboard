@@ -1,39 +1,58 @@
-<form (ngSubmit)="onFormSubmit(templateFormRef)" #templateFormRef="ngForm">
+<header></header>
+
+<div class="flex-box">
+
+<form (ngSubmit)="onFormSubmit(signUpFormRef)" #signUpFormRef="">
   <div id="logIn">
 
    <!--First Name -->
    <div class="form-group">
-    <label for="firstName">First Name :</label>
-    <input type="text" id="firstName" name="firstName" class="form-control" ngModel />
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" class="form-control" ngModel required />
+    <span class="help-block text-danger" *ngIf="!signUpFormRef.valid && signUpFormRef.touched"
+      >Please enter a valid name!</span
+    >
   </div>
 
   <!-- Last Name -->
   <div class="form-group">
-    <label for="lastName">Last Name :</label>
-    <input type="text" id="lastName" name="lastName" class="form-control" ngModel />
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" class="form-control" ngModel required />
+    <span class="help-block text-danger" *ngIf="!signUpFormRef.valid && signUpFormRef.touched"
+      >Please enter a valid name!</span
+    >
   </div>
 
     <!-- Username -->
     <div class="form-group">
-      <label for="username">Username :</label>
-      <input type="text" id="username" name="username" class="form-control" ngModel />
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" class="form-control" ngModel required />
+      <span class="help-block text-danger" *ngIf="!signUpFormRef.valid && signUpFormRef.touched"
+        >Please enter a valid username!</span
+      >
     </div>
 
     <!-- Password -->
     <div class="form-group">
-      <label for="password">Password :</label>
+      <label for="password">Password:</label>
       <input
-        type="text"
+        type="password"
         id="password"
         name="password"
         class="form-control"
-        ngModel
+        ngModel required />
+        <span class="help-block text-danger" *ngIf="!signUpFormRef.valid && signUpFormRef.touched"
+          >Please enter a valid password!</span
+        >
       />
 
       <!-- Email -->
     <div class="form-group">
       <label for="email">Email :</label>
-      <input type="text" id="email" name="email" class="form-control" ngModel />
+      <input type="text" id="email" name="email" class="form-control" ngModel required />
+      <span class="help-block text-danger" *ngIf="!signUpFormRef.valid && signUpFormRef.touched"
+        >Please enter a valid email!</span
+      >
     </div>
 
     <!-- Event Name -->
@@ -53,6 +72,6 @@
       <input type="text" id="organization" name="organization" class="form-control" ngModel />
     </div>
 
-      <button type="submit" [disabled]="!templateFormRef.valid">Submit</button>
+      <button type="submit" [disabled]="!signUpFormRef.valid">Submit</button>
     </div>
-
+</div>

@@ -1,0 +1,21 @@
+.bg {
+  background-image: linear-gradient(to bottom right, white, lightskyblue);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.container {
+  background-color: white;
+  box-shadow: grey;
+  border-radius: 25px;
+  margin-top: 1in;
+  justify-content: center;
+  width: 50%;
+  height: 5in;
+}
+
+.button {
+  float: right;
+  margin-top: 1in;
+  margin-right: 1in;
+}
