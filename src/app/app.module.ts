@@ -6,17 +6,26 @@ import { AppComponent } from './app.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { CardContainerComponent } from './card-holder/card-container.component';
 import { CardComponent } from './card-holder/card/card.component';
+import { LogInComponent } from './auth-comp/log-in/log-in.component';
+import { FormsModule } from '@angular/forms';
+import { AuthCompComponent } from './auth-comp/auth-comp.component';
+import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
     CardComponent,
-    CardContainerComponent
+    CardContainerComponent,
+    LogInComponent,
+    AuthCompComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
