@@ -1,0 +1,14 @@
+@import url("https://use.typekit.net/jbq1sod.css");
+
+h2 {
+  letter-spacing: 4px;
+  line-height:40px;
+}
+h3 {
+  font-family: "Mr Eaves San OT";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: #26313A;
+}
