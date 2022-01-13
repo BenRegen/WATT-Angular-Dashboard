@@ -1,0 +1,18 @@
+.flex-box {
+  background-color: lightskyblue;
+  border: transparent;
+  border-radius: 25px;
+  float: right;
+  width: 75%;
+  height: 5in;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+form .ng-invalid.ng-touched {
+  border: 1px solid red;
+}
