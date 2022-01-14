@@ -10,6 +10,7 @@ import { LogInComponent } from './auth-comp/log-in/log-in.component';
 import { FormsModule } from '@angular/forms';
 import { AuthCompComponent } from './auth-comp/auth-comp.component';
 import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
     LogInComponent,
     AuthCompComponent,
     SignUpComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

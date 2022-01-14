@@ -28,5 +28,5 @@ export class AppComponent {
       imageUrl: 'https://i.picsum.photos/id/627/128/128.jpg?hmac=9Grq32ADHeQBEZglUBaJ-jDICJAfmlopWdwDhhapgSA'
     },
   ]
-  first_name: string
+
 }
