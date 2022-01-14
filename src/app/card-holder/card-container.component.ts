@@ -11,6 +11,6 @@ export class CardContainerComponent implements OnInit {
   cardColumnWidth: number;
 
   ngOnInit() {
-    this.cardColumnWidth = Math.floor(12 / this.allCardInfo.length) - 1;
+    this.cardColumnWidth = Math.floor(12 / this.allCardInfo.length);
   }
 }
