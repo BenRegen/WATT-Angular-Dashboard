@@ -7,38 +7,35 @@
   position:absolute;
   width: 300px;
   height: 1104px;
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
   left: 0px;
   top: 0px;
   }
+
 
 .sidebar-header {
 position:absolute;
 width:202px;
 height: 46.94px;
-left: 43px;
-top: 61px;
-font-family: mr eaves mod ot Helvetica, Arial, sans-serif;
-font-style:normal;
+font-family: 'Mr eaves mod ot';
 font-weight: 800;
-font-size:64px;
+Font-size:64px;
 line-height: 71px;
 letter-spacing: .2em;
 color: #ffffff;
 }
 
-li {
-  list-style-type: none;
+ .links{
+  margin-top: 30em;
   width: 97px;
   height: 19.17px;
-  left: 65px;
-  top: 245px;
-
-  font-family: Montserrat Helvetica, Arial, sans-serif;
-  font-style:normal;
+  font-family: 'Monserrat',Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   letter-spacing: .25em;
   color: #ffffff;
 }
-
