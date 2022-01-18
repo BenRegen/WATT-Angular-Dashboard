@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/jbq1sod.css");
+
+h2 {
+  letter-spacing: 4px;
+  line-height:40px;
+  font-family: 'mr-eaves-modern', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  color: #6F7375;
+}
+h3 {
+  font-family: 'mr-eaves-sans', Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #26313A;
+}
