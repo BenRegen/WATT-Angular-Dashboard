@@ -1,9 +1,11 @@
+@import url("https://use.typekit.net/jbq1sod.css");
+
 .flex-box {
-  background-color: lightskyblue;
+  background-color: 6fceeb;
   border: transparent;
   border-radius: 25px;
   float: right;
-  width: 75%;
+  width: 50%;
   height: 5in;
 }
 
@@ -11,6 +13,10 @@
   display: flex;
   justify-content: center;
   padding-top: 20vh;
+  font-family: Mr Eaves Mod;
+  font-weight: 800px;
+  font-size: 3vh;
+  color: #007bff;
 }
 
 form .ng-invalid.ng-touched {
