@@ -1,21 +1,18 @@
 .bg {
-  background-image: linear-gradient(to bottom right, white, lightskyblue);
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+  background-image: linear-gradient(to bottom right, white, #adeff3);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
 }
-
-.container {
-  background-color: white;
+.auth-container {
+  background-image: url("../../assets/Login_Side_v3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #70ceeb;
   box-shadow: grey;
   border-radius: 25px;
-  margin-top: 1in;
-  justify-content: center;
+  margin-top: 6em;
+  margin-left: 4in;
   width: 50%;
   height: 5in;
-}
-
-.button {
-  float: right;
-  margin-top: 1in;
-  margin-right: 1in;
 }

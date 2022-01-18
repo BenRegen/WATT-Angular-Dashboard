@@ -9,7 +9,6 @@ import { CardComponent } from './card-holder/card/card.component';
 import { LogInComponent } from './auth-comp/log-in/log-in.component';
 import { FormsModule } from '@angular/forms';
 import { AuthCompComponent } from './auth-comp/auth-comp.component';
-import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
 
 
 @NgModule({
@@ -19,9 +18,8 @@ import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
     CardComponent,
     CardContainerComponent,
     LogInComponent,
-    AuthCompComponent,
-    SignUpComponent,
-  ],
+    AuthCompComponent,],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
