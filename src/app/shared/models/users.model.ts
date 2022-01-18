@@ -20,8 +20,8 @@ export class User {
         public device: string,
         public location: {
             city: string,
-            state: string, 
-            country: string, 
+            state: string,
+            country: string,
         },
         public activity: {
             total_trots: number,
