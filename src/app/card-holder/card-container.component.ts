@@ -1,11 +1,16 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 import { CardInfo } from "./card/card.component";
 
 @Component({
   selector: 'app-card-container',
   templateUrl: './card-container.component.html',
+  styleUrls: ['./card-container.component.css']
 })
-export class CardContainerComponent {
+export class CardContainerComponent implements OnInit {
   @Input() readonly allCardInfo: CardInfo[];
-  readonly cardColumnWidth = 4;
+  cardColumnWidth: number;
+
+  ngOnInit() {
+    this.cardColumnWidth = Math.floor(12 / this.allCardInfo.length);
+  }
 }
