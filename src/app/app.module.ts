@@ -17,6 +17,7 @@ import { PieChartsComponent } from './charts/pie-charts/pie-charts.component';
 
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AuthGuardComponent } from './auth-guard/auth-guard.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     PieChartsComponent,
 
     HeaderComponent,
-    DashboardComponent
+    DashboardComponent,
+    AuthGuardComponent
 
   ],
   imports: [

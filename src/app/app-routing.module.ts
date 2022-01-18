@@ -9,6 +9,12 @@ const routes: Routes = [
   {path:"login", component:AuthCompComponent}
 ];
 
+{
+  path: 'log-in',
+  component: LogInComponent,
+  canActivate: [AuthGuard],
+},
+}
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

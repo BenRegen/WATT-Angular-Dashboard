@@ -7,6 +7,7 @@ import { CardInfo } from './card-holder/card/card.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // This is test data used to
-  
+
+
 }
+if
