@@ -10,20 +10,20 @@ export class AppComponent {
   // This is test data used to
   info: CardInfo[] = [
     {
-      title: "Test0",
-      statistic: 6,
+      title: "Trots",
+      statistic: null,
       percentChanged: 3,
       imageUrl: 'https://i.picsum.photos/id/247/128/128.jpg?hmac=lDVL49vm2BeeRm82XeCMD2ZPLJ-ECXKrgGw-rRmLtK0'
     },
     {
-      title: "Test1",
-      statistic: 10,
+      title: "Amount Raised",
+      statistic: null,
       percentChanged: 4,
       imageUrl: 'https://i.picsum.photos/id/501/128/128.jpg?hmac=-PuUy3m3a95iP50WUmsYw1U0eGJSCGYZ64xSkTREtiU'
     },
     {
-      title: "Test3",
-      statistic: 4012,
+      title: "Trotters",
+      statistic: null,
       percentChanged: -58,
       imageUrl: 'https://i.picsum.photos/id/627/128/128.jpg?hmac=9Grq32ADHeQBEZglUBaJ-jDICJAfmlopWdwDhhapgSA'
     },
