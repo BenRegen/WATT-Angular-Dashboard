@@ -11,6 +11,9 @@ import { LogInComponent } from './auth-comp/log-in/log-in.component';
 import { FormsModule } from '@angular/forms';
 import { AuthCompComponent } from './auth-comp/auth-comp.component';
 import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
+import { ChartsComponent } from './charts/charts.component';
+import { LineChartsComponent } from './charts/line-charts/line-charts.component';
+import { PieChartsComponent } from './charts/pie-charts/pie-charts.component';
 
 
 @NgModule({
@@ -22,6 +25,9 @@ import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
     LogInComponent,
     AuthCompComponent,
     SignUpComponent,
+    ChartsComponent,
+    LineChartsComponent,
+    PieChartsComponent,
   ],
   imports: [
     BrowserModule,
