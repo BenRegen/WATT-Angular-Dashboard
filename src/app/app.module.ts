@@ -14,6 +14,7 @@ import { SignUpComponent } from './auth-comp/sign-up/sign-up.component';
 import { ChartsComponent } from './charts/charts.component';
 import { LineChartsComponent } from './charts/line-charts/line-charts.component';
 import { PieChartsComponent } from './charts/pie-charts/pie-charts.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { PieChartsComponent } from './charts/pie-charts/pie-charts.component';
     ChartsComponent,
     LineChartsComponent,
     PieChartsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
