@@ -1,8 +1,6 @@
-<header></header>
-
 <div class="flex-box">
   <div class="form-center">
-    <form (ngSubmit)="onFormSubmit(logInFormRef)" #logInFormRef="">
+    <form (ngSubmit)="onFormSubmit(logInFormRef)" #logInFormRef="ngForm">
       <div id="logIn">
 
        <!-- Username -->
@@ -13,7 +11,7 @@
               name="username"
               class="form-control" ngModel required />
               <span class="help-block text-danger" *ngIf="!logInFormRef.valid && logInFormRef.touched"
-                >Please enter a valid username!</span
+                >Enter a valid username!</span
               >
           </div>
 
@@ -27,7 +25,7 @@
                 class="form-control"
                 ngModel required />
                 <span class="help-block text-danger" *ngIf="!logInFormRef.valid && logInFormRef.touched"
-                  >Please enter a valid password!</span
+                  >Enter a valid password!</span
                 >
 
       <button type="submit" [disabled]="!logInFormRef.valid">Submit</button>
