@@ -11,12 +11,12 @@ export class EventService {
 
   //returns event statistics
   getStats() {
-    return this.myEvent.statistics;
+    return this.myEvent?.statistics;
   }
 
   //returns amount raised
   getAmountRaised() {
-    return this.myEvent.amount_raised;
+    return this.myEvent?.amount_raised;
   }
 
   //
