@@ -16,6 +16,7 @@ import { LineChartsComponent } from './charts/line-charts/line-charts.component'
 import { PieChartsComponent } from './charts/pie-charts/pie-charts.component';
 
 import { HeaderComponent } from './header/header.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -27,11 +28,14 @@ import { HeaderComponent } from './header/header.component';
     LogInComponent,
     AuthCompComponent,
 
+
     ChartsComponent,
     LineChartsComponent,
     PieChartsComponent,
 
-    HeaderComponent
+    HeaderComponent,
+    DashboardComponent
+
   ],
   imports: [
     BrowserModule,

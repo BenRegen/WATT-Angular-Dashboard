@@ -4,6 +4,7 @@
   width: 100vw;
   height: 100vh;
 }
+
 .auth-container {
   background-image: url("../../assets/Login_Side_v3.png");
   background-size: contain;
