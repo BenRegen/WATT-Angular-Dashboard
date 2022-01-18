@@ -10,6 +10,11 @@ import { CardComponent } from './card-holder/card/card.component';
 import { LogInComponent } from './auth-comp/log-in/log-in.component';
 import { FormsModule } from '@angular/forms';
 import { AuthCompComponent } from './auth-comp/auth-comp.component';
+
+import { ChartsComponent } from './charts/charts.component';
+import { LineChartsComponent } from './charts/line-charts/line-charts.component';
+import { PieChartsComponent } from './charts/pie-charts/pie-charts.component';
+
 import { HeaderComponent } from './header/header.component';
 
 
@@ -21,6 +26,11 @@ import { HeaderComponent } from './header/header.component';
     CardContainerComponent,
     LogInComponent,
     AuthCompComponent,
+
+    ChartsComponent,
+    LineChartsComponent,
+    PieChartsComponent,
+
     HeaderComponent
   ],
   imports: [
