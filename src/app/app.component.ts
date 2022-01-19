@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CardInfo } from './card-holder/card/card.component';
 
 @Component({
   selector: 'app-root',
